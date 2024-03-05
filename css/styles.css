@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none !important;
+}
+/* nav */
+.right-btn a{
+    color: #000;
+    
+   }
+   .right-btn h4{
+       background: rgb(17, 144, 205);
+       padding: 1rem 2rem;
+       border-radius: 50px;
+       color: #fff;
+   }
+   
+/* hero section */
+.hero-section{
+    background-color: rgb(50, 174, 147);
+}
+.hero-section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.hero-section .hero-content h1 span{
+   background-color: #ffd800;
+}
+
+
+/* section 3 */
+
+.section-3{
+    background: url(../images/pattern-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.section-3 .row{
+    background: #fff;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+}
+.section-3 h1{
+    color: rgb(17, 144, 205);
+    /* font-size: 3.5rem; */
+}
+
+
+
+
+/* card */
+.card-section {
+    background-color: rgb(50, 174, 147);
+    padding: 4rem 0;
+}
+.card-section .top{
+    color: #fff;
+}
+.card-title h3{
+
+    color: rgb(17, 144, 205);
+    margin: .5rem;
+    padding: .5rem;
+
+}
+.card-body h1{
+color: rgb(17, 144, 205);
+}
+.card-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #000;
+    background-color: #ffe353;
+    padding: .4rem 2rem;
+    border-radius: .375rem;
+}
+
+
+.card-section .card-2{
+    background-color: #fff7b2;
+}
+
+
+
+
+/* section 8 */
+.section-6 .row{
+display: flex;
+align-items: center;
+padding: 2rem 1rem;
+}
+
+.section6-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ffe353;
+    padding: .4rem 2rem;
+    border-radius: .375rem;
+}
+
+  .section-8 h6{
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #fff !important;
+  }
+
+
+  /* footer */
+footer {
+    background: rgb(47, 47, 47);
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffa829;
+    font-weight: 500;
+    margin: 1rem .6rem;
+}
+@media screen and (max-width: 992px){
+   .card-body .card-btn a{
+    font-size: 1rem;
+   }
+}
+@media screen and (max-width: 500px) {
+    .hero-section h1{
+        font-size: 2rem;
+    }
+    .section6-btn a{
+        font-size: 1.2rem;
+    }
+    .section-4 img{
+        width: 85%;
+    }
+}
